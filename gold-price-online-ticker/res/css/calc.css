@@ -1,0 +1,49 @@
+.gplt.calc input[type="text"], 
+.gplt.calc input[type="email"], 
+.gplt.calc input[type="search"], 
+.gplt.calc input[type="number"], 
+.gplt.calc input[type="date"], 
+.gplt.calc input[type="url"], 
+.gplt.calc input[type="password"], 
+.gplt.calc .placeholder, 
+.gplt.calc .fake-input, 
+.gplt.calc .textarea-wrapper {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 2px;
+    background: #fff;
+    color: #000;
+    vertical-align: middle;
+    outline: none;
+}
+
+.gplt.calc {height: 310px; padding: 33px 41px; background-color: #000}
+.gplt.calc p:not(.fake-input):not(.small):first-child {margin-bottom: -3px; color: #ffbd18; font-size: 18px; font-weight: 800; text-transform: uppercase}
+.gplt.calc p.small {color: #fff; font-size: 11px; font-weight: 600; text-transform: none; line-height: 14px}
+.gplt.calc p.small span {color: #ffbd18}
+.gplt.calc a {color: #ffbd18; text-decoration: underline}
+.gplt.calc .placeholder {padding-left: 16px; padding-top: 10px}
+.gplt.calc .placeholder+input {padding-left: 14px}
+.gplt.calc .button {padding: 13px 10px}
+.gplt.calc .jcf-select {padding-left: 11px}
+
+.gplt.calc .grid.padding {margin: -25px 0 0 -20px}
+.gplt.calc .grid.padding>* {padding: 25px 0 0 20px}
+
+@media screen and (max-width: 1279px) {
+    .gplt.calc {padding: 30px}
+}
+
+@media screen and (max-width: 1023px) {
+    .gplt.calc {height: 330px}
+    .gplt.calc .grid.padding {margin: -20px 0 0 -20px}
+    .gplt.calc .grid.padding>* {padding: 20px 0 0 20px}
+}
+
+@media screen and (max-width: 767px) {
+    .gplt.calc {height: auto}
+    .gplt.calc .grid.padding {margin: -10px 0 0 -10px}
+    .gplt.calc .grid.padding>* {padding: 10px 0 0 10px}
+    .gplt.calc .mobile-hide {display: none}
+}

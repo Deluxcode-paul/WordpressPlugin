@@ -1,0 +1,72 @@
+/* open-sans-regular - latin_latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v13-latin_latin-ext-regular.eot');
+  src: url('../fonts/open-sans-v13-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v13-latin_latin-ext-regular.woff') format('woff'),
+       url('../fonts/open-sans-v13-latin_latin-ext-regular.ttf') format('truetype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-regular.svg#OpenSans') format('svg');
+}
+
+/* open-sans-600 - latin_latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v13-latin_latin-ext-600.eot');
+  src: url('../fonts/open-sans-v13-latin_latin-ext-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-600.woff2') format('woff2'),
+       url('../fonts/open-sans-v13-latin_latin-ext-600.woff') format('woff'),
+       url('../fonts/open-sans-v13-latin_latin-ext-600.ttf') format('truetype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-600.svg#OpenSans') format('svg');
+}
+
+/* open-sans-700 - latin_latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v13-latin_latin-ext-700.eot');
+  src: url('../fonts/open-sans-v13-latin_latin-ext-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-700.woff2') format('woff2'),
+       url('../fonts/open-sans-v13-latin_latin-ext-700.woff') format('woff'),
+       url('../fonts/open-sans-v13-latin_latin-ext-700.ttf') format('truetype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-700.svg#OpenSans') format('svg');
+}
+
+/* open-sans-800 - latin_latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v13-latin_latin-ext-800.eot');
+  src: url('../fonts/open-sans-v13-latin_latin-ext-800.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-800.woff2') format('woff2'),
+       url('../fonts/open-sans-v13-latin_latin-ext-800.woff') format('woff'),
+       url('../fonts/open-sans-v13-latin_latin-ext-800.ttf') format('truetype'),
+       url('../fonts/open-sans-v13-latin_latin-ext-800.svg#OpenSans') format('svg');
+}
+
+/* icons */
+@font-face {
+	font-family: 'icons';
+	src:url('../fonts/icons.eot');
+	src:url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg?#icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Zerospace */
+@font-face {
+    font-family: 'Zerospace';
+    src: url('../fonts/zerospace.eot');
+    src:
+         url('../fonts/zerospace.eot') format('embedded-opentype'),
+         url('../fonts/zerospace.ttf') format('truetype');
+}

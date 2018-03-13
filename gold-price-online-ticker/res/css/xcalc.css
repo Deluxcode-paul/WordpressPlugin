@@ -1,0 +1,332 @@
+.gplt.xcalc-container {
+	padding: 0px;
+	position: relative;
+}
+
+.gplt.xcalc-container .xcalc-switch {
+	position: relative;
+	right: 8px;
+	top: 8px;
+	width: auto;
+	font-size: 10px;
+	font-weight: 800;
+	padding: 6px 8px;
+	border-radius: 8px;
+	color: #333;
+	margin-top: 23px;
+	text-transform: none;
+	font-weight: 700;
+}
+
+.gplt.xcalc {
+	margin: 0px;
+	padding: 30px 20px 20px;
+	border: 2px solid #F2F2F2;
+}
+
+.gplt.xcalc p.title {
+	margin-bottom: 7px;
+	font-size: 16px;
+	font-weight: 800;
+	text-transform: uppercase;
+	height: 35px;
+}
+
+.gplt.xcalc p.row {
+	position: relative;
+	display: block;
+	max-height: 30px;
+	border-radius: 3px;
+}
+
+.gplt.xcalc p.row + p.row {
+	margin: 10px 0 0;
+}
+
+.gplt.xcalc p.title + p.row {
+	margin: 8px 0 0;
+}
+
+.gplt.xcalc span.desc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 55%;
+	padding: 3px 12px 3px 20px;
+	border: 2px solid #FFBD18;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	background-color: #FFF;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.gplt.xcalc .placeholder {
+	top: 0;
+	right: 0;
+	left: auto;
+	padding: 4px 5px 3px 5px;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+
+.gplt.xcalc input {
+	float: right;
+	width: 45%;
+	padding: 4px 5px 3px 5px;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+
+.gplt.xcalc .border-palladium > p.title {
+	margin: 18px 0 8px;
+}
+
+.gplt.xcalc .border-gold span.desc {
+	border-color: #FFBD18;
+}
+
+.gplt.xcalc .border-silver span.desc {
+	border-color: #DADADA;
+}
+
+.gplt.xcalc .border-platin span.desc {
+	border-color: #BAA896;
+}
+
+.gplt.xcalc .border-palladium span.desc {
+	border-color: #7C7064;
+}
+
+.gplt.xcalc .summe {
+	margin-top: 39px;
+}
+
+.gplt.xcalc .summe div {
+	overflow: hidden;
+	position: relative;
+	float: left;
+	padding-right: 8px;
+	width: 63%;
+}
+
+.gplt.xcalc .summe div:before {
+	content: '';
+	position: absolute;
+	top: -57px;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background-color: #FFF8E5;
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+
+.gplt.xcalc .summe p.fake-input {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding: 8px 8px 8px 20px;
+	background-color: transparent;
+}
+
+.gplt.xcalc .summe button {
+	float: right;
+	width: 36%;
+	padding: 13px 7px;
+}
+
+.gplt.xcalc .summe .placeholder {
+	padding: 9px;
+}
+
+.gplt.xcalc .description {
+	margin-top: 35px;
+}
+
+.gplt.xcalc .description p {
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 12px;
+}
+
+.gplt.xcalc .description p span {
+	color: #FFBD18;
+}
+
+.gplt.xcalc > .grid.padding {
+	margin: 0px 0 0 -18px;
+}
+
+.gplt.xcalc > .grid.padding > * {
+	padding: 0px 0 0 18px;
+}
+
+#gplt_xcalc_close.button.secondary.xcalc-switch {
+	color: white;
+	background-color: #DA3434;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#gplt_xcalc_close.button.secondary.xcalc-switch:hover {
+	color: ;
+	background-color: #000;
+}
+
+@media screen and (max-width: 1279px) {
+	.gplt.xcalc span.desc {
+		padding: 3px 6px 3px;
+	}
+	
+	.gplt.xcalc .placeholder, .gplt.xcalc input {
+		padding: 4px 5px 3px 5px;
+	}
+	
+	.gplt.xcalc .summe button {
+		padding: 13px 7px;
+	}
+	
+	.gplt.xcalc .summe p.fake-input {
+		padding-left: 6px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.gplt.xcalc p.row .legend {
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.gplt.xcalc {
+		margin-top: 15px;
+		padding-top: 0px;
+	}
+	
+	.gplt.xcalc p.title {
+		margin-top: 15px;
+	}
+	
+	.gplt.xcalc .summe div {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	
+	.gplt.xcalc .summe button {
+		display: block;
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+/**
+ * ============== Simple Calculator ==============
+ */
+.scalc .gplt h3 {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.scalc .gplt button {
+	font-size: 13px;
+}
+
+.scalc .gplt.gold {
+	float: left;
+	width: 40%;
+	height: 330px;
+	font-size: 12px;
+	padding: 32px 20px;
+}
+
+.scalc .gplt.gold h3 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.scalc .gplt.gold ul {
+	padding: 0px;
+}
+
+.scalc .gplt.gold ul li {
+	padding: 0px 10px;
+	font-weight: 700;
+}
+
+.scalc .gplt.calc {
+	float: right;
+	width: 60%;
+	height: 330px;
+	font-size: 12px;
+	padding: 32px 40px;
+}
+
+#gplt_xcalc_open.button.secondary.xcalc-switch {
+	color: #FFBD18;
+	background-color: #000;
+	text-decoration: underline;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#gplt_xcalc_open.button.secondary.xcalc-switch:hover {
+	color: #FFF;
+	background-color: #000;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.scalc .gplt.calc p:not(.fake-input):not(.small):first-child {
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1023px) {
+	.scalc .gplt.gold {
+		width: 48%;
+		padding: 32px 10px;
+	}
+	
+	.scalc .gplt.calc {
+		width: 52%;
+		padding: 32px 30px;
+	}
+	
+	.scalc .gplt.gold, .scalc .gplt.calc {
+		height: 315px;
+		overflow: hidden;
+	}
+	
+	.scalc .gplt.calc .grid.padding {
+		margin: -10px 0 0 -10px;
+	}
+	
+	.scalc .gplt.calc .grid.padding > * {
+		padding: 10px 0 0 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.scalc .gplt button {
+		font-size: 14px;
+	}
+	
+	.scalc .gplt.calc p:not(.fake-input):not(.small):first-child {
+		font-size: 18px;
+	}
+	
+	.scalc .gplt.gold {
+		display: none;
+	}
+	
+	.scalc .gplt.calc {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+}

@@ -1,0 +1,39 @@
+.gplt.gold {
+    display: block;
+    min-height: 200px;
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #fff;
+}
+
+.gplt.gold h3 {
+    padding-left: 7px;
+    text-transform: uppercase;
+}
+
+.gplt.gold p {
+    margin-top: 5px;
+    padding-left: 7px;
+    font-weight: 600;
+}
+
+.gplt.gold ul {
+    margin-top: 12px;
+}
+
+.gplt.gold ul li {
+    padding: 0 15px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.gplt.gold ul li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.gplt.gold ul li span {
+    float: right;
+}

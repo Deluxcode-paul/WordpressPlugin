@@ -1,0 +1,50 @@
+.gplt-fieldset {
+	margin: 0px;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    display: table;
+}
+
+.gplt-fieldset td {
+	margin: 0px;
+	padding: 2px 5px;
+	min-width: 150px;
+	line-height: 1.5;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.gplt-fieldset .header > td {
+	padding-top: 3px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.gplt-fieldset td.narrow {
+	min-width: 50px;
+	width: 50px;
+}
+
+.gplt-fieldset label span {
+	display: inline-block;
+}
+.gplt-fieldset input.price-adjustment {
+	width: 90px;
+	text-align: center;
+}
+
+@media screen and (max-width: 782px) {
+	.gplt-fieldset {
+		padding-top: 3px;
+	}
+
+	.gplt-fieldset td {
+		display: inline-block;
+	}
+
+	.gplt-fieldset input.price-adjustment {
+		width: 100px;
+		text-align: center;
+	}
+}

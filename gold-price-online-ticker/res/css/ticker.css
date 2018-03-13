@@ -1,0 +1,97 @@
+.gplt.ticker-region, .gplt.ticker div {
+    display: block;
+}
+
+.gplt.ticker {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 40px;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.gplt.ticker.sticky {
+    position: absolute;
+    top: 0;
+    bottom: initial;
+}
+
+.gplt.ticker ul {
+    display: inline-block;
+    width: auto;
+    height: 100%;
+}
+
+.gplt.ticker ul li {
+    display: table-cell;
+    height: 100%;
+    color: #fa3c3c;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.gplt.ticker ul li:before {
+    content: '+++';
+    display: inline-block; 
+    margin: 0 10px;
+    color: #6e6e6e;
+}
+
+.gplt.ticker ul li span {
+    color: #fff;
+}
+
+.gplt.ticker .tickercontainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gplt.ticker .tickercontainer .mask {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gplt.ticker ul.newsticker {
+    position: relative;
+    font: bold 10px Verdana;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gplt.ticker ul.newsticker li {
+    float: left;
+    margin: 0;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1280px) {
+    .gplt.ticker {
+        position: absolute;
+        top: 0;
+        bottom: initial;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .gplt.ticker {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gplt.ticker {
+        top: 0;
+    }
+}
